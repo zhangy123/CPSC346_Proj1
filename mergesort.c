@@ -13,6 +13,7 @@ struct node{
 // merges two sorted lists of nodes and returns head of a sorted list
 struct node* merge(struct node * head1, struct node * head2)
 {
+	//hello
 	struct node* temp;
 	struct node* newhead;
 	if(head2 == NULL) // if the second list is empty
